@@ -1,0 +1,308 @@
+body { 
+margin:0;
+font-family: 'Montserrat', sans-serif; font-size:16px; 
+color:#333; 
+line-height=1.6px; 
+background:#F8F8F6;}
+*,
+*:before,
+*:after{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+/* container */
+.container {
+    color:#333;
+	width:100%;
+	max-width:1200px;
+	margin:0 auto;
+}
+
+/* intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(images/MidBoard.jpg) center 
+        no-repeat;
+-webkit-background-size:cover;
+    background-size:cover;
+}
+
+/*intro_title*/
+.intro_title {
+    color:aliceblue;
+  font-size: 80px;
+font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+.intro_title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 50px auto 0;
+    background:aliceblue;
+    margin-bottom: 20px;
+}
+
+/*intro_inner*/
+.intro_inner{
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* brow */
+.brow
+{
+    color:#413637;
+	width:100%;
+	margin:0 auto;
+}
+
+/*header*/
+.header {
+    padding-top: 3px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/*logo*/
+.logo {
+font-size: 30px;
+    font-weight: 700;
+    margin: 0 35px;
+    color:aliceblue;
+}
+
+/*nav*/
+.nav {
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+
+/*a*/
+.a {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 3px;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+
+/*header_inner*/
+.header_inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*btn*/
+.btn{
+    display: inline-block;
+    vertical-align:top;
+    padding: 8px 20px;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: 0.05s;
+}
+
+.btn:hover{
+    border: 2px solid #ffd700;
+    color: #ffd700;
+    transition: 0.2s
+}
+
+/*section*/
+.section{
+    padding: 80px;
+    
+}
+
+
+.section_header{
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.section_suptitle{
+    font-size: 32px; 
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    
+}
+
+.section_text{
+    color: #888;
+}
+.section_text:after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 3px;
+    margin: 50px auto 0;
+    background:#333;
+    margin-bottom: 20px;
+
+}
+
+/*photo*/
+.section_photo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section_photo:hover .photo img {
+    opacity: 0.7;
+    
+}
+
+.section_item{
+    
+ 
+}
+
+.photo{
+    background: linear-gradient(to bottom, #f38181,#fce38a);
+}
+
+.photo img{
+    transition: opacity 0.2 linear;
+}
+
+
+.more{
+    margin-top: 90px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.more_a{
+    text-decoration: none;
+    color: #333;
+    padding: 7px 19px;
+    text-transform: uppercase;
+    border: 2px solid #333;
+    
+}
+
+.more_a:hover{
+    font-size: 20px;
+    color: #;
+    border: 3px solid #333;
+    padding: 10px 22px;
+    background: #ffd700;
+    transition: 0.3s;
+}
+
+/*information*/
+.information{
+    color: aliceblue;
+    background: #333;
+    width: 100%;
+    height: 100;
+    max-height: 800px;
+    text-align: center;
+}
+
+.abot_me{
+}
+
+.title_me{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    
+}
+
+.information_me{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.about_me:after {
+  content: "";
+    display: block;
+    width: 55px;
+    height: 3px;
+    margin: 70px auto 50px;
+    background:#333;
+    margin-bottom: 20px;
+}
+.about_me:before {
+  content: "";
+    display: block;
+    width: 55px;
+    height: 3px;
+    margin: 70px auto 50px;
+    background:#333;
+    margin-bottom: 20px;
+}
+.title_me1{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+       
+}
+
+.tittle_me2{
+    font-size:12px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.tittle_me2:hover{
+    font-size: 15px;
+    color: goldenrod;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
