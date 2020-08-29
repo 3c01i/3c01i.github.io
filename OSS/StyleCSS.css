@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    font-family: 'Russo One', sans-serif;
+    font-size: 16.5px;
+    color:#333;
+    line-height=1.6px;
+    background:#ecf0e4;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+p {
+    margin: 0 0 10px 0;
+}
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+/*Conteiner ==================================== */
+.container {
+    width: 100%;
+    max-width:1170px;
+    margin: 0 auto;
+}
+
+/*Header ==================================== */
+.header {
+    width: 100%;
+    position: absolute;
+    top 0;
+    left 0;
+    z-index: 10000;
+}
+
+.tophead {
+    align-items: center;
+    text-transform: uppercase;
+    margin: 0 45px;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #555;
+    font-size: 20px;
+}
+.company{
+    margin: 0 5px;
+}
+
+/*Navigation ================================*/
+
+.tophead_a {
+text-transform: uppercase;
+position: static;
+margin: 6px;
+font-size: 16.5px;
+text-decoration:none;
+color:#333;
+transition: opacity 0.2s linear ;
+}
+.tophead_a:hover {
+opacity: 1;
+text-shadow:#222;
+font-size::17px;
+color:#111;
+}
+
+.nav {
+
+}
+/*intro ================================*/
+
+.intro{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 110px;
+    background-color:#505e4f;
+    height: 730px;
+    background: url(img/FONE.jpg) center no-repeat;
+}
+.intro_title{
+    line-height: 71px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #f4bf06;
+    font-weight: 700;
+}
+.intro_title2 {
+    margin: 0;
+ text-transform: uppercase;
+    font-size: 23px;
+    color: #f4bf06;
+    font-weight: 700;
+}
+
+/*Benefits*/
+.benefits{
+    margin: 110px 26px;
+display: flex;
+}
+
+.benefits_item {
+    width: 33.33333%;
+     text-align: center;
+}
+.benefits_icon{
+    margin-bottom: 25px;
+}
+
+.benefits_text {
+}
+/*service ============= */
+.service_intro{
+    background: url(img/Service/Service_1.png) center no-repeat;
+    width: 100%;
+}
+.service {
+    margin: 18px 0;
+    padding: 20px;
+    width: 100%;
+}
+.service_name{
+    text-transform: uppercase;
+}
+.title_service{
+       padding-top: 10px;
+width: 100%;
+    text-align: center;
+}
+.service_text{
+    color:#333;
+    padding-bottom: 8px;
+        display: flex;
+    border-bottom: 2px solid #555;
+    justify-content:space-between;
+}
+.service_intro_color{
+    width: 43%;
+    text-align: center;
+    background-color:#dd931f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
