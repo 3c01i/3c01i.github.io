@@ -17,6 +17,9 @@ p {
 *:after {
 box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 /*Conteiner ==================================== */
 .container {
     width: 100%;
@@ -118,7 +121,7 @@ display: flex;
     width: 100%;
 }
 .service {
-    margin: 18px 0;
+    margin-top: 18px;
     padding: 20px;
     width: 100%;
 }
@@ -133,7 +136,7 @@ width: 100%;
 .service_text{
     color:#333;
     padding-bottom: 8px;
-        display: flex;
+    display: flex;
     border-bottom: 2px solid #555;
     justify-content:space-between;
 }
@@ -142,6 +145,77 @@ width: 100%;
     text-align: center;
     background-color:#dd931f;
 }
+
+.sub_title_service {
+ font-size:12px;
+}
+/*About us==================================*/
+.about_title{
+    margin-top:100px;
+    padding-right: 17px;
+    font-size: 60px;
+    transition: 0.3s;
+}
+.about_title:hover {
+    color: goldenrod;
+}
+
+.about{
+    font-size:24px;
+    padding-top: 23px;
+    padding-right: 10px;
+    flex-direction: column;
+    text-align: right;
+    margin-left: 43%;
+    width: 57%;
+    display: flex;
+    padding-bottom: 29px;
+}
+
+/* works======================   */
+.works{
+display: flex;
+}
+
+.works_item {
+    margin: 10px;
+    border-bottom: 2px solid #555;
+    border-top: 2px solid #555;
+    border-left: 2px solid #555;
+    border-right: 2px solid #555;
+    margin-bottom: 37px;
+    width: 33.33333%;
+     text-align: center;
+}
+.works_icon{
+    margin-bottom: 10px;
+}
+
+.works_text {
+    color:#333;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+.works_title{
+    padding-top: 20px;
+    margin-top:150px;
+    margin-bottom: 47px;
+    display: flex;
+    font-size: 70px;
+    justify-content: center;
+}
+.works_bg{
+    background: #cccccc;
+    text-decoration: none;
+}
+
+
+
+
 
 
 
