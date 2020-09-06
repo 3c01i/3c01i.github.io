@@ -19,10 +19,10 @@
 
       <nav class="nav">
        <a href="" class="tophead_a">Главная</a>
-       <a href="" class="tophead_a">Услуги</a>
-       <a href="" class="tophead_a">О нас</a>
-       <a href="" class="tophead_a">Работы</a>
-       <a href="" class="tophead_a">Контакты</a>
+       <a href="#service" class="tophead_a">Услуги</a>
+       <a href="#about" class="tophead_a">О нас</a>
+       <a href="#work" class="tophead_a">Работы</a>
+       <a href="#contact" class="tophead_a">Контакты</a>
        </nav>
        </div>
        </div>
@@ -63,7 +63,7 @@
     </div>
    </div>
    <!-- Service -->
-  <div class="service_intro">
+  <div class="service_intro"> <a name="service"></a>
      <div class="container">
      <div class="service_intro_color">
      <h1 class="title_service"> Услуги</h1>
@@ -153,6 +153,7 @@
   </div>
     <!--About us-->
     <div class="about_color">
+    <a name="about"></a>
     <div class="container">
         <div class="about">
         <h1 class="about_title">
@@ -167,6 +168,7 @@
     </div>
     <!-- Works -->
     <div class="works_bg">
+    <a name="work"></a>
     <h1 class="works_title">Работы</h1>
     <div class="container">
     <div class="works">
@@ -190,12 +192,13 @@
 
 <!-- Contact -->
 <div class="contact_BG">
+<a name="contact"></a>
 <div class="container">
-<div class="contact">
 <h1 class="contact_title">
   Контактные данные и обратная связь
    </h1>
-   <div class="contact_1">
+     <div class="contact">
+      <div class="contact_1">
     <div class="contact_text">
 Номер телефона(Звонок бесплатный): <a class="contact_value">+7 (952) 469-06-96</a>
 </div>
@@ -207,6 +210,7 @@ E-mail: <a class="contact_value"> volkovov@list.ru </a>
     </div>
     </div>
     <div class="contact_2">
+    <h2 class="contact_2_2">Заказать обратный звонок:</h2>
 <form>
 
         <!-- Hidden Required Fields -->
@@ -215,10 +219,9 @@ E-mail: <a class="contact_value"> volkovov@list.ru </a>
         <input type="hidden" name="form_subject" value="Form Subject">
         <!-- END Hidden Required Fields -->
 
-        <input type="text" name="Name" placeholder="You name..." required><br>
-        <input type="text" name="E-mail" placeholder="You E-mail..." required><br>
-        <input type="text" name="Phone" placeholder="You phone..."><br>
-        <button>Send</button>
+        <input type="text" name="Имя" placeholder="Ваше имя..." required><br>
+        <input type="text" name="Ваш номер" placeholder="Ваш телефонный номер..."><br>
+        <button>Отправить</button>
     </form>
            <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="script.js"></script>
@@ -226,5 +229,13 @@ E-mail: <a class="contact_value"> volkovov@list.ru </a>
     </div>
 </div>
 </div>
+<!-- END -->
+    <div class="end_BG">
+        <div class="container">
+            <div class="end_inform">
+Все права защищены.
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -260,21 +260,20 @@ display: block;
 
 .contact {
     width: 100%;
-    min-height: 370px;
     display: flex;
-    padding: 50px 0;
-    margin: 0 40px;
     justify-content: ;
-    flex-direction: column;
+    flex-direction:;
 }
 .contact_1{
-    float: left;
-    min-height: 88px;
+    margin-top: 4%;
     width: 50%;
-    margin-top: 10%;
+    min-height: 150px;
+    float: left;
 }
 
 .contact_title{
+    padding: 50px 0;
+    margin: 0 40px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -289,13 +288,25 @@ display: block;
 }
 
 .contact_2{
-    margin-left: 50%;
-    width: 50%;
-    min-height: 88px;
+  width: 50%;
+    min-height: 150px;
 
 }
-
-
+.contact_2_2 {
+     margin-top: 4%;
+    padding-top: 20px;
+}
+ /*END =============================================*/
+.end_BG{
+    background:#222;
+    width: 100%;
+    height: 214px;
+}
+.end_inform{
+    padding:90px;
+    text-align: center;
+    color: aliceblue;
+}
 
 
 
