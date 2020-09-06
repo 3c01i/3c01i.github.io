@@ -254,9 +254,46 @@ display: block;
 }
 
 /*contact =============================*/
+.contact_BG{
+    background: #dd931f;
+}
 
+.contact {
+    width: 100%;
+    min-height: 370px;
+    display: flex;
+    padding: 50px 0;
+    margin: 0 40px;
+    justify-content: ;
+    flex-direction: column;
+}
+.contact_1{
+    float: left;
+    min-height: 88px;
+    width: 50%;
+    margin-top: 10%;
+}
 
+.contact_title{
+    text-transform: uppercase;
+    text-align: center;
+}
 
+.contact_text{
+    font-size: 18px;
+    color: #333;
+}
+.contact_value{
+    font-size: 16px;
+    color: #444;
+}
+
+.contact_2{
+    margin-left: 50%;
+    width: 50%;
+    min-height: 88px;
+
+}
 
 
 
