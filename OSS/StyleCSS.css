@@ -156,6 +156,7 @@ width: 100%;
     padding: 8px;
     margin: 25px;
     text-align: center;
+    transition: 0.4s;
 }
 .botom_service:Hover {
     color: #333;
@@ -382,6 +383,17 @@ position: absolute;
 
 .popup_text{
     margin: 2em ;
+
+}
+
+.popup_service{
+margin-bottom: 20px;
+display: flex;
+width: 60%;
+}
+
+.popup_price{
+    display: flex;
 
 }
 
