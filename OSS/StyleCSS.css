@@ -121,7 +121,11 @@ display: flex;
 }
 /*service ============= */
 .service_intro{
-    background: url(img/Service/Service_1.png) center no-repeat;
+    background: url(img/Service/Service_1.png) no-repeat;
+       -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
     width: 100%;
 }
 .service {
@@ -277,7 +281,11 @@ display: block;
     justify-content: center;
 }
 .works_bg{
-    background: url(img/Works/BG_2.jpg) no-repeat center;
+    background: url(img/Works/BG_2.jpg) center;
+       -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
     text-decoration: none;
 }
 
