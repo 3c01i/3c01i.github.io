@@ -29,14 +29,16 @@ font-size: 40px;
 }
 
 .service_name{
+    background-color: #e2e6dc;
     position: absolute;
     left: 0;
     top: 40;
     margin-left: 5.75em;
-    width: 50%;
+    width: 80%;
 }
 
 .service_price{
+    color:#333;
     position: absolute;
     right: 0;
     top: 40;
@@ -56,7 +58,7 @@ font-size: 40px;
 .back:hover {
     color:goldenrod;
     font-size: 18px;
-    padding: 5px;
+   
     border: 3px solid goldenrod;
     margin: 30px;
     left: 0;
