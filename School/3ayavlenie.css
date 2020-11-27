@@ -1,0 +1,66 @@
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+p {
+    margin: 0 0 10px 0;
+}
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.data {
+    margin-top: 5%;
+    font-size: 18px;
+    margin-left:82%;
+    width: 18%;
+    text-align: end;
+    border-bottom: 4px solid #333;
+}
+.name {
+    font-weight: bold;
+}
+.header {
+    font-size: 50px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+.container {
+    border-top: 4px solid #333;
+    border-bottom: 4px solid #333;
+    width: 100%;
+    max-width:1280px;
+    margin: 60px 45px ;
+    height: 100%;
+    max-height: 720px;
+}
+.info {
+    text-indent: 70px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.graph {
+    border-bottom: 1px solid #333;
+    font-weight: bold; 
+}
+.graphur {
+    font-size: 25px;
+    margin-left: 27%    
+}
+.style {
+    font-weight: bold;
+}
+.infodata {
+    font-size: 25px;
+    margin-left:10%; 
+    }
+.infodatauser {
+    font-size: 25px;
+    margin-right: 10%;
+    text-align: end;
+    margin-bottom: 5%;
+}
