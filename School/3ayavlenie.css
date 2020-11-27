@@ -14,9 +14,9 @@ a{
 }
 .data {
     margin-top: 5%;
-    font-size: 18px;
-    margin-left:82%;
-    width: 18%;
+    font-size: 25px;
+    margin-left:78%;
+    width: 22%;
     text-align: end;
     border-bottom: 4px solid #333;
 }
@@ -35,7 +35,7 @@ a{
     max-width:1280px;
     margin: 60px 45px ;
     height: 100%;
-    max-height: 720px;
+    max-height: 800px;
 }
 .info {
     text-indent: 70px;
