@@ -64,3 +64,6 @@ a{
     text-align: end;
     margin-bottom: 5%;
 }
+.sup{
+        border-bottom: 1px solid #333;
+}
