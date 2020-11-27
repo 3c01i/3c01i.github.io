@@ -17,12 +17,13 @@ a{
     text-decoration: none;
 }
 .data {
+    color: red;
     margin-top: 5%;
     font-size: 25px;
     margin-left:78%;
     width: 22%;
     text-align: end;
-    border-bottom: 4px solid blue;
+    border-bottom: 4px solid gold;
 }
 .name {
     font-weight: bold;
@@ -33,7 +34,7 @@ a{
     text-align: center;
 }
 .container {
-    border-top: 4px solid blue;
+    border-top: 4px solid gold;
     border-bottom: 4px solid blue;
     width: 100%;
     max-width:1280px;
