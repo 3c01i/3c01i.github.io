@@ -1,0 +1,23 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+}
+.table {
+    width: 77%;
+    background-color: #d3d3d3;
+}
+.str{
+    font-size: 8px;
+}
+.img{
+    float: left;
+}
+.img1{
+    float: right;
+}
+.caption{
+    font-size: 18px;
+}
+.th{
+    font-size: 13px;
+    background-color: #a9a9a9;
+}
