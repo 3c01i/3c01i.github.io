@@ -1,0 +1,21 @@
+.header{
+    padding-top: 20px;
+    display: flex;
+}
+.botom{
+    text-decoration: none;
+    color:#000;
+    margin: auto;
+    transition: 0.5s;
+}
+.botom:hover{
+    font-weight: bold;
+    color:red;
+}
+container{
+    align-content: center;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    margin: 10 10;
+}
